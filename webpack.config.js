@@ -102,8 +102,8 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
-      filename: 'index.html',
+      // templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
+      template: 'public/index.html',
       favicon: 'public/favicon.ico'
     }),
     new MiniCssExtractPlugin(),
