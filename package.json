@@ -1,10 +1,10 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a react boilerplate with webpack and babel",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "Shehu jamilu Gusau",
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
